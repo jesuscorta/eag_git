@@ -4,15 +4,24 @@ section#servicios{
     background-color:#fff;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 section#servicios img{
     width:150px;
-    /* margin-top: 20vh; */
+    
 }
 section#servicios h2{
     font-size:2rem;
+    padding-bottom: 100px;
     
+    
+}
+section#servicios div{
+    display: flex;
+    justify-content: center;
+flex-direction: row;
+
 }
 section#servicios figure{
     border-radius: 50%;
