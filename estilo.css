@@ -48,4 +48,38 @@ header#header nav a{
     letter-spacing: 10px;
     background-color: white;
     padding: 20px;
+section#servicios{
+    width:100%;
+    height:60vh;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section#servicios img{
+    width:150px;
+    
+}
+section#servicios h2{
+    font-size:2rem;
+    padding-bottom: 100px;
+    
+    
+}
+section#servicios div{
+    display: flex;
+    justify-content: center;
+flex-direction: row;
+
+}
+section#servicios figure{
+    border-radius: 50%;
+    border:2px solid burlywood;
+  width: 180px;
+  height: 180px;
+  padding:40px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
 }
